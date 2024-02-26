@@ -32,6 +32,9 @@ main {
   border-radius: 10px;
   padding: 5px;
   margin-bottom: 10px;
+  max-width: 80%;
+  float: left; /* Align to the left */
+  clear: both;
 }
 
 #response-message {
@@ -39,6 +42,9 @@ main {
   border-radius: 10px;
   padding: 5px;
   margin-bottom: 10px;
+  max-width: 80%;
+  float: right; /* Align to the right */
+  clear: both;
 }
 
 .form-control {
