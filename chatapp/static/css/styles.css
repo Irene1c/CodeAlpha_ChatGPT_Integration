@@ -1,0 +1,46 @@
+body {
+  background-color: #F0F0F0;
+}
+
+header {
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+main {
+  height: 100vh;
+}
+
+.chat-container, .form-container {
+  max-width: 600px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.chat-container {
+  height: 65vh;
+}
+
+#user-message {
+  background-color: #A0DAA9;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#response-message {
+  background-color: #7FC8F8;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.form-control {
+ margin: 5px auto;
+}
