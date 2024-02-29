@@ -19,8 +19,8 @@
     <main>
       <section class="chat-container">
         <div id="chat-messages">
-	  <div id="user-message">Hello ChatGPT</div>
-	  <div id="response-message">Hello! How are you today</div>
+	  <!-- <div id="user-message">Hello ChatGPT</div>
+	  <div id="response-message">Hello! How are you today</div> -->
 	</div>
       </section>
       <section>
@@ -28,7 +28,7 @@
           <div class="form-group">
             <input type="text" class="form-control form-control-sm" id="message" placeholder="Type your message...">
           </div>
-          <button class="btn btn-primary btn-sm">Send</button>
+          <button id="send-button" class="btn btn-primary btn-sm">Send</button>
 	</form>
       </section>
     </main>
@@ -38,6 +38,11 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-
+    <script
+      src="https://cdn.socket.io/4.7.4/socket.io.min.js"
+      integrity="sha384-Gr6Lu2Ajx28mzwyVR8CFkULdCU7kMlZ9UthllibdOSo6qAiN+yXNHqtgdTvFXMT4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
   </body>
 </html>
