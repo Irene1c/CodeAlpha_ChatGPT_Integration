@@ -16,6 +16,21 @@ This is a Flask-based chat application that utilizes WebSocket communication for
 - **dotenv**: A Python library used for loading environment variables from a .env file.
 - **Bootstrap**: A frontend framework used for styling and layout.
 
+## OpenAI API Key
+
+This project uses the OpenAI API for generating responses in the chat application. In order to use the API, you'll need to obtain an API key from OpenAI.
+
+### Obtaining an API Key
+
+1. Sign up for an account on the [OpenAI website](https://openai.com/).
+2. Once logged in, navigate to the API section of your account dashboard.
+3. Follow the instructions to generate an API key.
+4. Copy the generated API key and securely store it.
+
+### Usage Costs
+
+Using the OpenAI API may involve charges based on usage. Please review the pricing information on the [OpenAI website](https://openai.com/pricing) to understand the pricing model and associated costs.
+
 ## Prerequisites
 
 * Python 3.x
