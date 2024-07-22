@@ -62,27 +62,15 @@ Using the OpenAI API may involve charges based on usage. Please review the prici
   pip install -r requirements.txt
 ```
 
-5. Create a config file:
-
-Create a `config.py` file in the project root directory.
-
-Add your configurations to the config.py file, including setting a `SECRET_KEY`:
-
-```python
-  # config.py
-
-  class ConfigClass:
-      SECRET_KEY = 'your_secret_key_here'
-```
-
-6. Set up environment variables:
+5. Set up environment variables:
 
 Create a `.env` file in the project root directory.
 
-Add your OpenAI API key to the .env file:
+Add your `OpenAI API key` and `SECRET_KEY` to the .env file:
 
 ```
   OPENAI_API_KEY='your_openai_api_key_here'
+  SECRET_KEY='your_secret_key_here'
 ```
 
 7. Run the application:
